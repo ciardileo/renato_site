@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+nav > a{
+    color: white;
+    transition-duration: 0.25s;
+    text-decoration: none;
+    margin: 20px;
+    padding: 5px;
+}
+
+nav > a:hover{
+    border-bottom: solid 3px red;
+    color: red;
+}
+
+#presentation{
+    background-image: url("assets/faive.png");
+    height: 500px;
+    width: 100%;
+    color: white;
+}
+
+#logo{
+    display: inline-block;
+    width: 250px;
+}
